@@ -11,7 +11,7 @@ body{
   transform: translate(-50%, -50%);
   width: 450px;
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid hsl(225, 100%, 98%);
   border-radius: 15px;
   overflow: hidden;
 
@@ -21,20 +21,48 @@ p{
     font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
 }
+.summary{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.music-image{
+    display:inline;
+    float: left;
 
-.planDiv{
-    border: .5px solid grey;
-    border-radius: 5px;
-    font-family: "Red Hat Display", sans-serif;
 
 }
 .annual{
+    display:inline;
+    float: left;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px;
+}
 
-    text-align: left;
+
+.planDiv{
+    border-radius: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    clear: both;
+    font-size: 0px;
+    padding: 20px;
+    background-color:  hsl(225, 100%, 98%);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.text-container{
+    padding: 40px;
+
 }
 .change{
-
-
+    float:right;
+    font-size: 12px;
+    padding-top: 10px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 h1{
