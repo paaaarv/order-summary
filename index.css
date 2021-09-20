@@ -1,10 +1,12 @@
 body{
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
 }
 
 .container {
+  background-color: hsl(225, 100%, 98%);
   position: fixed;
   top: 50%;
   left: 50%;
@@ -32,6 +34,7 @@ p{
 
 }
 .annual{
+    color: hsl(223, 47%, 23%);
     display:inline;
     float: left;
     padding-left: 20px;
@@ -42,14 +45,15 @@ p{
 
 
 .planDiv{
-    border-radius: 5px;
+    
+    border-radius: 15px;
     font-family: "Red Hat Display", sans-serif;
     clear: both;
     font-size: 0px;
     padding: 20px;
-    background-color:  hsl(225, 100%, 98%);
-    margin: 20px;
+    background-color:  hsl(225, 100%, 94%);
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .text-container{
@@ -66,5 +70,24 @@ p{
 }
 
 h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+button{
     font-family: "Red Hat Display", sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    display: block;
+    border:none;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+.button:hover{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
 }
